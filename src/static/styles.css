@@ -63,15 +63,37 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #444;
+  font-style: italic;
 }
 
 .form-group {
@@ -141,4 +163,10 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+p[strong*="Participants"] {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
 }
