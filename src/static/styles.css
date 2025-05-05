@@ -164,3 +164,9 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+p[strong*="Participants"] {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
